@@ -1,0 +1,45 @@
+body {
+    background-color: #D6E1F0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    min-height: 100vh;
+}
+.qr-card {
+    display: grid;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1px;
+    font-family: "Outfit", sans-serif;
+    width: 300px;
+    margin: 50px auto;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    padding: 20px;
+    height: 500px;
+}
+.qr-image img {
+    display: grid;
+    margin: 10px;
+    width: 95%;
+    border-radius: 10px;
+}
+.qr-content h2 {
+    font-size: 1.2em;
+    color: #333;
+    margin: 0 0 8px 0;
+    font-family: "Montserrat", sans-serif;
+    line-height: 1.5;
+}
+.qr-content p {
+    display: block;
+    font-size: 0.9em;
+    color: #666;
+    margin-top: 10px;
+    line-height: 1.5;
+    font-family: "Montserrat", sans-serif;
+}
